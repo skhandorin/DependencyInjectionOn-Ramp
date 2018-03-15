@@ -38,6 +38,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRepository.SQL", "Per
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRepository.CachingDecorator", "PersonRepository.CachingDecorator\PersonRepository.CachingDecorator.csproj", "{898C1EA9-324B-48CE-917B-053C842EA0A0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{A1CD9E1A-EB64-4C29-AF44-A9523713358D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleViewer.Presentation.Test", "PeopleViewer.Presentation.Test\PeopleViewer.Presentation.Test.csproj", "{B58F5604-0281-410C-AF7A-491B6C082204}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,6 +88,10 @@ Global
 		{898C1EA9-324B-48CE-917B-053C842EA0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{898C1EA9-324B-48CE-917B-053C842EA0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{898C1EA9-324B-48CE-917B-053C842EA0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58F5604-0281-410C-AF7A-491B6C082204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58F5604-0281-410C-AF7A-491B6C082204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58F5604-0281-410C-AF7A-491B6C082204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58F5604-0281-410C-AF7A-491B6C082204}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +107,7 @@ Global
 		{22D242EB-8113-49E3-8CC9-03A41E3B185E} = {3E718516-DFA5-4CF0-8021-45B0236D9C1F}
 		{003702D8-E922-4539-80D4-15AAB22FF29D} = {3E718516-DFA5-4CF0-8021-45B0236D9C1F}
 		{898C1EA9-324B-48CE-917B-053C842EA0A0} = {3E718516-DFA5-4CF0-8021-45B0236D9C1F}
+		{B58F5604-0281-410C-AF7A-491B6C082204} = {A1CD9E1A-EB64-4C29-AF44-A9523713358D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A24539F-D817-4C2F-B8D0-6C5353454C96}
