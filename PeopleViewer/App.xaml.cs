@@ -11,6 +11,7 @@ using PersonRepository.Service;
 using PeopleViewer.Presentation;
 using PersonRepository.CSV;
 using PersonRepository.SQL;
+using PersonRepository.CachingDecorator;
 
 namespace PeopleViewer
 {
@@ -26,7 +27,8 @@ namespace PeopleViewer
 
         private static void ComposeObjects()
         {
-            IPersonRepository repository = new SQLRepository(); ;
+            var wrappedRepository = new ServiceRepository();
+            IPersonRepository repository = new CachingRepository(wrappedRepository); 
             var viewModel = new PeopleViewerViewModel(repository);
             Application.Current.MainWindow = new PeopleViewerWindow(viewModel);
         }
